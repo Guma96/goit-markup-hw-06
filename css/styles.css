@@ -545,6 +545,7 @@ body {
   padding-bottom: 49px;
   padding-left: 24px;
   padding-right: 45px;
+  margin-top: 0;
 }
 .picture-portfolio-box:hover .picture-portfolio-overlay {
   transform: translate(0%, -100%);
