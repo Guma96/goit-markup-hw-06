@@ -595,6 +595,7 @@ body {
   outline: none;
   margin-right: 12px;
   padding-left: 16px;
+  color: var(--color-white);
 }
 
 .fieldset-footer-input:focus {
