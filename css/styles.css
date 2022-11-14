@@ -561,6 +561,98 @@ body {
   list-style-type: none;
   margin-top: 20px;
 }
+.footer-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.fieldset-footer {
+  border: none;
+}
+
+.fieldset-footer-label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.fieldset-footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  margin-right: 12px;
+  padding-left: 16px;
+}
+
+.fieldset-footer-input:focus {
+  border-color: var(--color-gray);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fieldset-footer-input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fieldset-footer-button {
+  background: var(--color-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 46px;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.fieldset-footer-button-push {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: var(--color-white);
+  position: absolute;
+  left: 40px;
+}
+
+.fieldset-footer-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 40px;
+}
+
+.fieldset-footer-button:hover,
+.fieldset-footer-button:focus {
+  background: #7cbef4;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .section {
   padding: 94px;
 }
@@ -997,3 +1089,4 @@ a.modal-submit-term {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
