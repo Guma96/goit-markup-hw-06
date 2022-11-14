@@ -425,7 +425,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer-form">
+          <form name="newsletter" class="footer-form">
             <fieldset class="fieldset-footer">
               <label class="fieldset-footer-label" for="fieldet-newsletter">
                 <span class="fieldset-footer-label"
@@ -445,7 +445,7 @@
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </address>
     </footer>
@@ -465,6 +465,7 @@
               class="modal-box-name-size"
               name="modal-box-name"
               id="fieldset-name"
+              required
             />
           </fieldset>
 
@@ -477,6 +478,7 @@
               class="modal-box-name-size"
               name="modal-box-name"
               id="fieldset-phone"
+              required
             />
           </fieldset>
 
@@ -489,6 +491,7 @@
               class="modal-box-name-size"
               name="modal-box-name"
               id="fieldset-email"
+              required
             />
           </fieldset>
 
@@ -508,7 +511,8 @@
                 <input
                   class="modal-checkbox"
                   type="checkbox"
-                  id="fieldset-checkbox" />
+                  id="fieldset-checkbox"
+                  required />
                 <span class="modal-submit-checkbox">
                   <svg class="modal-submit-icon">
                     <use
@@ -538,3 +542,4 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
+
